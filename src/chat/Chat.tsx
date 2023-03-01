@@ -16,7 +16,7 @@ const Chat = (): JSX.Element => {
   const [participant, setParticipant] = useState("");
   // 유저 닉네임이 나일 경우 우측으로 빼두기
   // 리렌더링시 Chat 컴포넌트의 리렌더링을 막는 방법은 없을까?
-  // console.log("inputValue ==>", inputValue)
+
   // any 말고 다른 타입을 사용할 수 없을까?
   const stompClient = useRef<any>(null);
 
